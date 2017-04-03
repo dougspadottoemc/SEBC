@@ -1,4 +1,4 @@
-1. Checking swappiness
+#1. Checking swappiness
 1. Show mounts
 1. Disable THP
 1. Network interface configuration
