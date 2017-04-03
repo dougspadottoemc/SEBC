@@ -1,4 +1,4 @@
-#Monday morning:
+# Monday morning:
 1. Introduction
    1. Instructors: Benjamin (bveratudela) e Seiji (ctakamiya)
    1. Channels manager: Fábio (fw@cloudera.com)
