@@ -1,5 +1,5 @@
 # 1. Checking swappiness
-(/png/p_swappiness.png)
+  1. ![](labs/png/p_swappiness.png)
 1. Show mounts
 1. Disable THP
 1. Network interface configuration
