@@ -1,7 +1,5 @@
 # 1. Checking swappiness
-  
-  ![swappiness] ()
-  ![GitHub Logo](/SEBC/labs/png/p_swappiness.png)
+![1](/SEBC/labs/png/p_swappiness.png)
 1. Show mounts
 1. Disable THP
 1. Network interface configuration
