@@ -1,4 +1,4 @@
-`#!/bin/sh
+` #!/bin/sh
 
 CPU=4
 WORKERS=4
@@ -59,4 +59,4 @@ do
 
             echo "${i}, ${CNT_MAX}, ${CNT_MB}, $(grep 'CPU time spent (ms)' out.txt | awk -F'=' '{print $2}')" >> results.txt
     done
-done`
+done `
