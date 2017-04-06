@@ -7,7 +7,7 @@ You have new mail in /var/spool/mail/root
 [root@ip-10-179-156-49 krb5kdc]# klist dougspadottoemc@CLOUDERA.BOOTCAMP
 ```
 
-### List its properties
+### List its credentials
 ```
 [root@ip-10-179-156-49 krb5kdc]# klist
 Ticket cache: FILE:/tmp/krb5cc_0
