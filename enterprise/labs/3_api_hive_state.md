@@ -95,12 +95,13 @@ Server: Jetty(6.1.26.cloudera.4)
         "roleName" : "hive-HIVESERVER2-a89c5c6d0abf925e2a0511b2019dba01"
       }
     } ]
-  } ```
-
+  } 
+```
 
 ### Start Hive
 
-``` [ec2-user@ip-10-179-156-49 ~]$ curl -X POST -u "dougspadottoemc:cloudera" -i http://ec2-23-22-152-100.compute-1.amazonaws.com:7180/api/v2/clusters/dougspadottoemc/services/hive/commands/start
+``` 
+[ec2-user@ip-10-179-156-49 ~]$ curl -X POST -u "dougspadottoemc:cloudera" -i http://ec2-23-22-152-100.compute-1.amazonaws.com:7180/api/v2/clusters/dougspadottoemc/services/hive/commands/start
 HTTP/1.1 200 OK
 Expires: Thu, 01-Jan-1970 00:00:00 GMT
 Set-Cookie: CLOUDERA_MANAGER_SESSIONID=m0i7fiwzjwka139dbnr72fbq5;Path=/;HttpOnly
@@ -121,7 +122,8 @@ Server: Jetty(6.1.26.cloudera.4)
 ```
 
 ### Checking if command ran ok
-``` [ec2-user@ip-10-179-156-49 ~]$ curl -X GET -u "dougspadottoemc:cloudera" -i http://ec2-23-22-152-100.compute-1.amazonaws.com:7180/api/v2/commands/1248                                       HTTP/1.1 200 OK
+``` 
+[ec2-user@ip-10-179-156-49 ~]$ curl -X GET -u "dougspadottoemc:cloudera" -i http://ec2-23-22-152-100.compute-1.amazonaws.com:7180/api/v2/commands/1248                                       HTTP/1.1 200 OK
 Expires: Thu, 01-Jan-1970 00:00:00 GMT
 Set-Cookie: CLOUDERA_MANAGER_SESSIONID=b53q59re31oaxu7jm6hqt6df;Path=/;HttpOnly
 Content-Type: application/json
@@ -194,13 +196,15 @@ Server: Jetty(6.1.26.cloudera.4)
         "roleName" : "hive-WEBHCAT-a89c5c6d0abf925e2a0511b2019dba01"
       }
     } ]
-  } ```
+  } 
+```
 
 ### Checking Hive status
 
 For that, I checked the role, and within it I can see the status (I removed spurious output):
 
-``` [ec2-user@ip-10-179-156-49 ~]$ curl -X GET -u "dougspadottoemc:cloudera" -i http://ec2-23-22-152-100.compute-1.amazonaws.com:7180/api/v2/clusters/dougspadottoemc/services/hive/roles
+``` 
+[ec2-user@ip-10-179-156-49 ~]$ curl -X GET -u "dougspadottoemc:cloudera" -i http://ec2-23-22-152-100.compute-1.amazonaws.com:7180/api/v2/clusters/dougspadottoemc/services/hive/roles
 HTTP/1.1 200 OK
 Expires: Thu, 01-Jan-1970 00:00:00 GMT
 Set-Cookie: CLOUDERA_MANAGER_SESSIONID=10zwfr59qd399qni4t6vo6vo6;Path=/;HttpOnly
@@ -278,4 +282,5 @@ Server: Jetty(6.1.26.cloudera.4)
     "roleState" : "STARTED",
     "healthSummary" : "GOOD",
    ...
-  } ] ```
+  } ] 
+  ```
