@@ -1,1 +1,1 @@
-*/admin@CLOUDERA.BOOTCAMP  
+`*/admin@CLOUDERA.BOOTCAMP  `
