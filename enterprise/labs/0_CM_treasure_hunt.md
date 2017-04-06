@@ -17,4 +17,4 @@
   HIVESERVER2, HIVEMETASTORE, WEBHCAT, GATEWAY
 
 ### What steps must be completed before integrating Cloudera Manager with Kerberos?
-   Get or create a Kerberos Principal for the CM server.
+   Have a Kerberos KDC setup, get or create an admin Kerberos Principal (able to create other principals), have Kerberos clients installed on all nodes.
