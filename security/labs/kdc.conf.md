@@ -12,7 +12,6 @@
   supported_enctypes = aes256-cts:normal aes128-cts:normal des3-hmac-sha1:normal arcfour-hmac:normal camellia256-cts:normal camellia128-cts:normal des-hmac-sha1:normal des-cbc-md5:normal des-cbc-crc:normal
   max_life = 1d
   max_renewable_life = 7d
-  maxrenewlife = 7d
   default_principal_flags = +renewable
  }
 ```
