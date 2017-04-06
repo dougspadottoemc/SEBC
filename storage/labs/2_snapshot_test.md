@@ -28,4 +28,4 @@ Found 1 items
 -rw-r--r--   3 dougspadottoemc dougspadottoemc     473950 2017-04-06 12:32 /user/dougspadottoemc/precious/SEBC-master.zip
 ```
 
-Disclaimer: I've uploaded this file on Thursday while reviewing the material to be delivered, you'll notice this from the files' dates
+Disclaimer: I've uploaded this file on Thursday while reviewing the material to be delivered, you'll notice this from the file dates
