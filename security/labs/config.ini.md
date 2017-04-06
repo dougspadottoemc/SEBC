@@ -1,3 +1,4 @@
+```
 [root@ip-10-179-156-49 ~]# cat /etc/cloudera-scm-agent/config.ini
 [General]
 # Hostname of the CM server.
@@ -224,3 +225,4 @@ client_cert_file=/opt/cloudera/security/pki/agent.cert.pem
 #cloudera_oracle_connector_jar=/usr/share/java/oracle-connector-java.jar
 #By default, postgres jar is found dynamically in $MGMT_HOME/lib
 #cloudera_postgresql_jdbc_jar=
+```
