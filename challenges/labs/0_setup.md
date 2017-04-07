@@ -51,4 +51,4 @@ barca:x:2017:ronaldo
 [root@ip-10-181-102-132 ~]# cat /etc/group | grep merengues
 merengues:x:2018:neymar
 ```
-_reproduced the above on all nodes_
+_reproduced the user and group creation commands on all nodes_
