@@ -1,7 +1,7 @@
 ### Command
 `hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-0.20-mapreduce/hadoop-examples.jar terasort tgen640 tsort640m`
 
-Output
+### Output
 ``
 17/04/07 13:43:34 INFO terasort.TeraSort: starting
 17/04/07 13:43:35 INFO hdfs.DFSClient: Created token for neymar: HDFS_DELEGATION_TOKEN owner=ne                                                                                              ymar@DOUGSPADOTTOEMC.BR, renewer=yarn, realUser=, issueDate=1491587015930, maxDate=149219181593                                                                                              0, sequenceNumber=1, masterKeyId=2 on 10.146.51.155:8020
