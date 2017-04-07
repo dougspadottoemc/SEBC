@@ -1,6 +1,6 @@
 * List the cloud provider you are using (AWS, GCE, Azure, other): AWS
  
-*List the nodes you are using by IP address and name
+* List the nodes you are using by IP address and name
 ```
 10.156.39.216   ip-10-156-39-216.ec2.internal cb5
 10.229.31.57    ip-10-229-31-57.ec2.internal cb4
