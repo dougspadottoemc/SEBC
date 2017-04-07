@@ -1,5 +1,5 @@
 * List the cloud provider you are using (AWS, GCE, Azure, other)
-..* AWS
+AWS
  
 *List the nodes you are using by IP address and name
 ```
